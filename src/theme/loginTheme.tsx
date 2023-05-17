@@ -2,6 +2,13 @@ import { StyleSheet } from "react-native"
 import { Background } from '../components/Background';
 
 export const loginStyle = StyleSheet.create({
+    formContainer: {
+        flex: 1,
+        paddingHorizontal: 15,
+        justifyContent: 'center',
+        height: 600,
+        marginBottom: 50
+    },
     title: {
         color: 'white',
         fontSize: 30,
@@ -47,6 +54,24 @@ export const loginStyle = StyleSheet.create({
     textButton: {
         color: '#5856D6',
         fontWeight: "bold"
+    },
+    or: {
+        alignItems: 'center',
+        marginVertical: 20
+    },
+    orText: {
+        color: 'white',
+        fontWeight: 'bold',
+        fontSize: 18
+    },
+    registerContainer: {
+        alignItems: 'center',
+    },
+    registerText: {
+        color: 'white',
+        fontWeight: '500',
+        fontSize: 20
     }
+
     
 })
